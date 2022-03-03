@@ -1,4 +1,4 @@
-# SQL Notes - Part 1
+# SQL Notes - Basics
 
 ## Examples
 
