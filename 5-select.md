@@ -54,7 +54,7 @@ from employee
 group by gender;
 ```
 
-`/%` means any num of characters, `/_` means any one character. 
+`%` means any num of characters, `_` means any one character. 
 
 ```sql
 select * 
