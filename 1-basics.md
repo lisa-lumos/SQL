@@ -47,8 +47,20 @@ create table student (
 	student_id int primary key,
 	name varchar(20),
 	major varchar(20)
-)
+);
 ```
+
+or 
+
+```sql
+create table student (
+	student_id int,
+	name varchar(20),
+	major varchar(20),
+	primary key (student_id)
+);
+```
+
 
 
 
