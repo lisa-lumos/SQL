@@ -32,7 +32,7 @@ Composite key: A candidate key that consists of two or more columns that togethe
 ## Common Datatypes in MySQL
 
 | Datatype | Description |
-| ----------- | ----------- |
+| ---------------- | ----------- |
 | VARCHAR(size) | The size parameter specifies the maximum length in characters - 0 to 65535 |
 | INT(size) | The size parameter specifies the maximum display width |
 | DECIMAL(size, d) | The total number of digits is specified in size. The number of digits after the decimal point is specified in d. Default: size = 10, d = 0 |
