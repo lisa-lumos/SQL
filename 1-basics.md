@@ -42,8 +42,13 @@ Composite key: A candidate key that consists of two or more columns that togethe
 
 ## Creating Tables
 
-
-
+```sql
+create table student (
+	student_id int primary key,
+	name varchar(20),
+	major varchar(20)
+)
+```
 
 
 
