@@ -29,7 +29,7 @@ from
 	on employee.emp_id = branch.mgr_id;
 ```
 
-MySQL doesn't have cross join. 
+MySQL doesn't have `cross join`. 
 
 
 

@@ -62,3 +62,29 @@ from client
 where client_name like '%LLC';
 ```
 
+## More complicated queries
+
+```sql
+select employee.first_name, employee.last_name
+from employee
+where employee.emp_id in (
+	select works_with.emp_id
+	from works_with
+	where works_with.total_sales > 30000
+);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

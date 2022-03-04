@@ -10,7 +10,7 @@ Two types of databases:
 1. Relational Databases (SQL)
 2. Non-Relational (noSQL)
 
-SQL: structured query language for interacting with Relational DBMS. 
+SQL: Structured query language for interacting with Relational DBMS. 
 
 SQL is basically 4 types of languages in one: 
 - DQL: Data Query Language
@@ -21,13 +21,15 @@ SQL is basically 4 types of languages in one:
 - DML: Data Manipulation Language
   - Used to insert, delete or update data in the database
 
-Query: requests made to the DBMS for specific information. 
+Query: Requests made to the DBMS for specific information. 
 
 Primary key: A special relational database table column (or combination of columns) designated to uniquely identify each table record. 
 
 Foreign key: A column or group of columns in a relational database table that provides a link between data in two tables. A table can have multiple foreign keys that refer to different tables respectively. 
 
 Composite key: A candidate key that consists of two or more columns that together uniquely identify a row.
+
+ER: Entity relationship. 
 
 ## Common datatypes in MySQL
 
