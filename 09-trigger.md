@@ -13,5 +13,5 @@ insert into student values
 (3, 90.5),
 (4, -12.5);
 
-drip trigger marks_verify;
+drop trigger marks_verify;
 ```

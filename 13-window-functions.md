@@ -13,11 +13,11 @@ from employees
 order by salary;
 ```
 
-If there were duplicated records in the student table, below script will show row_num starting from 1, increment, for each partition. 
+If there were duplicated records in the student table, below script will show row_num starting from 1, incremental, for each partition. 
 
 ```sql
 select student_id, student_name, 
-row_number() over (patition by student_id, student_name order by student_id) as row_num
+row_number() over (partition by student_id, student_name order by student_id) as row_num
 from student;
 ```
 
