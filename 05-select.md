@@ -53,6 +53,21 @@ from employee;
 ```
 
 ```sql
+select avg(salary), count(emp_id)
+from employee;
+```
+
+count, sum, avg support distinct: 
+
+```sql
+select count(distinct login)
+from student
+where login like '@cs';
+```
+
+
+
+```sql
 select count(gender), gender
 from employee
 group by gender;
