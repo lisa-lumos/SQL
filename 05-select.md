@@ -37,6 +37,10 @@ select count(*)
 from employee;
 ```
 
+Difference between count(*) and count(1)?
+- count(*) means it will count all records i.e each and every cell BUT
+- count(1) means it will add one pseudo column with value 1 and returns count of all records
+
 ```sql
 select count(emp_id)
 from employee
@@ -73,7 +77,6 @@ where employee.emp_id in (
 	where works_with.total_sales > 30000
 );
 ```
-
 
 
 
